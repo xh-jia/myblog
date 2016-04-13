@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*login.html*/
+body{background:none; background-color:#CCC; font-family:"楷体", "微软雅黑 Light"; font-size:14px;}
+.main{width:500px; height:400px; background-image:url(../images/loginBackground.jpg); border-radius:10px; position:relative; top:150px; left:30%; border:medium solid #999; transform:rotate(5deg);
+-ms-transform:rotate(5deg); 	/* IE 9 */
+-moz-transform:rotate(5deg); 	/* Firefox */
+-webkit-transform:rotate(5deg); /* Safari �� Chrome */
+-o-transform:rotate(5deg); 	/* Opera */}
+.main form{position:relative; left:10%; top:20%;
+transform:rotate(-5deg);
+-ms-transform:rotate(-5deg); 	/* IE 9 */
+-moz-transform:rotate(-5deg); 	/* Firefox */
+-webkit-transform:rotate(-5deg); /* Safari �� Chrome */
+-o-transform:rotate(-5deg); 	/* Opera */}
+.main form div{position:relative; top:20px;}
+.main form div p{display:inline-block; width:60px;}
+.main #name{width:300px; height:30px; border-radius:2px; background-color:#CCC; opacity:0.6;}
+.main #name:focus{opacity:1;}
+.main #pwd{width:300px; height:30px; border-radius:2px; background-color:#CCC; opacity:0.6;}
+.main #pwd:focus{opacity:1;}
+.main #login{width:150px; height:40px; background-color:#444; font-size:20px; color:#999; border-radius:8px;
+border:none; position:relative; left:25%; top:100px;}
+.main #forget{color:#000; position:relative; top:130px; left:350px;}
+.main #forget a{color:#639; text-decoration:none;}

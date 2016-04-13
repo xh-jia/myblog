@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+/*list*/
+*{margin:0; padding:0;}
+body{}
+.list{width:366px; background-image:url(../images/background.jpg);  border-image-source:url(../images/bor.gif); border-image-width:40px;}
